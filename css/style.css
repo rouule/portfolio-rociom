@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Thin;
+    src: url(../fonts/Lato-Thin.ttf);
+}
+header {
+    padding: 40px 56px 56px 80px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 84px;
+    /* or 140% */
+    color: #000000;
+    font-family: 'PlayfairDisplay-Bold';
+    margin-top: 104px;
+    margin-bottom: 95px;
+    max-width: 1047px;
+    font-family: 'Lato-Regular';
+  }
+
+  .article-image {
+    width: 422px;
+    height: 339px;
+  }
+#image-presentation {
+    border-radius: 20px ;
+}
+  p {
+      font-family: 'Lato-Italic';
+      font-size: 20px;
+  }
+
+  h3 {
+      font-family: 'Lato-Regular';
+      font-size: 20px;
+  }
+
+.container-nav:hover {
+color: #878787 !important; 
+}
+
+#container-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-bottom: 64px;
+    font-family: 'Lato-Regular';
+}
+
+#container-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#container-header {
+    display: flex;
+    justify-content: center;
+}
+
+
+#image-presentation img{
+    width: 80%;
+}
+
+#section-article {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 64px;
+}
+
+#presentation {
+    margin-right: 64px;
+}
+
+.article-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.article-image a {
+    width: 70%;
+}
+
+.article-image a img{
+    width: 100%;
+}
+
+footer {
+    padding: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+#copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 368px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  gap: 24px;
+}
+#linkedin-logo img{
+  width: 40%;
+}
+
+#linkedin-logo {
+    display: flex;
+    align-items: center;
+}
+
+
+  
+
+  
